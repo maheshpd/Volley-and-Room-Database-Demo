@@ -30,7 +30,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
+    private static final String TAG = "MainActivity";
     private static String FETCHURL = "https://api.androidhive.info/json/shimmer/menu.php";
     List<Repo> recipes;
     private RecyclerView recyclerview;
